@@ -1,0 +1,12 @@
+policy:
+  fullName:
+    name: gcr
+    workspaceName: 'faas-fe'
+  spec:
+    inputValues:
+      registry_repos:
+        list:
+          values:
+          - str: gcr.io
+    policyType: image-policy
+    recipeName: allow-registry

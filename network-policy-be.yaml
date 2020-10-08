@@ -1,0 +1,7 @@
+policy:
+  fullName:
+    name: deny-all-policy
+    workspaceName: 'faas-be'
+  spec:
+    policyType: network-policy
+    recipeName: deny-all
